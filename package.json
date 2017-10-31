@@ -1,0 +1,11 @@
+{
+  "name": "hype-cli",
+  "version": "0.0.0",
+  "main": "src",
+  "repository": "git@github.com:jstreats/hype-cli.git",
+  "author": "kidchenko <kidchenko@gmail.com>, lnmunhoz <ln.munhoz@gmail.coms>",
+  "license": "MIT",
+  "dependencies": {
+    "docopt": "^0.6.2"
+  }
+}
