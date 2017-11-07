@@ -1,5 +1,8 @@
 hype-cli
 =========
+[![Build Status](https://travis-ci.org/kidchenko/hype-cli.svg?branch=master)](https://travis-ci.org/kidchenko/hype-cli)
+
+[![Coverage Status](https://coveralls.io/repos/github/kidchenko/hype-cli/badge.svg?branch=master)](https://coveralls.io/github/kidchenko/hype-cli?branch=master)
 
 A small library that adds commas to numbers
 
