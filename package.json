@@ -1,26 +1,35 @@
 {
   "name": "hype-cli",
-  "version": "0.1.0",
-  "main": "src",
+  "version": "0.0.1",
+  "main": "bin",
   "repository": "git@github.com:jstreats/hype-cli.git",
-  "author": "kidchenko <kidchenko@gmail.com>, lnmunhoz <ln.munhoz@gmail.coms>",
+  "author": "kidchenko <kidchenko@gmail.com>, lnmunhoz <ln.munhoz@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "docopt": "^0.6.2"
+  "bin": {
+    "hype": "bin/index.js"
   },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "coveralls": "^3.0.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^4.0.1"
+  "bugs": {
+    "url": "https://github.com/jstreats/hype-cli/issues"
   },
+  "homepage": "https://github.com/jstreats/hype-cli#readme",
   "scripts": {
-    "start": "node ./src",
+    "start": "node bin/index.js",
     "test": "mocha --reporter spec",
     "cover":
       "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "engines": {
     "node": ">=4.2.4"
+  },
+  "keywords": ["cli-app", "cli", "bin", "hype", "hype-boilerplate", "jstreats"],
+  "dependencies": {
+    "docopt": "^0.6.2",
+    "nodegit": "^0.20.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
   }
 }
