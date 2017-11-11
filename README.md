@@ -15,11 +15,11 @@
 ## Usage
 
 ```bash
-hype --help  # => Show help text
+hype --help  # => Show help text.
 
-hype --version # => Show current version
+hype --version # => Show current version.
 
-hype create <name> # => Create a new app
+hype --create <targetPath> --template <template> # => Create a new app.
 ```
 
 ## Tests

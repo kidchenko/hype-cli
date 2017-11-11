@@ -1,8 +1,8 @@
-const expect = require("chai").expect;
-const doc = require("./../src");
+require("chai").should();
+const config = require("../src/config");
 
-describe("Hello", () => {
-  it("should work", () => {
-    expect(true).to.be.true;
+describe("Config:", () => {
+  it("GIT_BASE_URI should be JSTreats repo", () => {
+    config.GIT_BASE_URI.should.equal("https://github.com/jstreats");
   });
 });
